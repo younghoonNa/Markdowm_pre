@@ -8,4 +8,4 @@ this is my `first` commit
 
 [my link](https://www.naver.com)
 
-![alt text](second.jpeg)
+![alt text](seven.jpeg)
