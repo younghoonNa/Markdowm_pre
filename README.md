@@ -30,7 +30,7 @@
 
 - mutable or immutable -> 원소 변경 불가능, 삽입, 삽제 포함
   - mutable : list, dict, set, bytearray, user-definded classes(특별히 immutable로 바꾸지않는 경우에 한하여)
-  - immutable : 그 외 전부 다.. -> hashable
+  - immutable : 그 외 전부 다.. (tuple, str) -> hashable
 
 - Lazy Evaluation : 파이썬 해석기는 and와 or 평가 중간단계에서 최종값이 결정되면 더 이상 평가를 진행하지 않음.
   - A1 and A2 and .. An 일 때, 
