@@ -31,6 +31,8 @@
     - log10(53) = 15.95 정도
     - import math 후 math.isclose 함수를 통해 비교 가능.
 
+
+
 - mutable or immutable -> 원소 변경 불가능, 삽입, 삽제 포함
   - mutable : list, dict, set, bytearray, user-definded classes(특별히 immutable로 바꾸지않는 경우에 한하여)
   - immutable : 그 외 전부 다.. (tuple, str) -> hashable
@@ -45,6 +47,29 @@
   - 섞여 있을 경우에는 연산자 우선순위가 and > or 이므로 and연산 모두 진행 후 or 연산 진행
   
 - bit_length : 비트 길이 알랴줌
+
+## 자료형
+
+### Sequence type
+- list   :   []               변경가능 자료형     -> mutable
+- tuple  :   ()               변경 불가능 자료형 -> immutable
+- str    : 유니코드 문자열     변경 불가능 자료형 -> immutable 
+- bytes  : 0 ~ 255 사이 숫자들의 시퀀스,          -> immutable 
+- bytearay : bytes의 변경 가능 버전              ->  mutable
+- range  : range() 함수가 생성하는 변경 불가능 자료형 -> immutable
+
+### str
+- 파이썬의 문자는 각각 Unicode code point에 대응된다. 따라서 두개의 문자를 비교할 때 내부적으로 변환되는 이 유니코드 포인트를 기반으로 비교를 한다.
+- 유니코드 글자 표현시 `\u + 16진수 표현` 을 통해 입력할 수 없는 글자 표시가 가능하다.
+
+### bytes
+- str.encode('utf-8') : 문자열을 utf-8의 바이트 형식으로 변환.
+- 바이트 문자열은 화면에 출력시 128비트의 ASCII 코드로 표현이 됨.
+  - Unicode code point가 128보다 작은 ASCII 코드는 그대로 출력
+  - 128비트 보다 클 경우 글자 하나를 1바이트 즉 8비트로 나누어진 다음 2자리의 16진수로 표현됨.
+
+### List
+
 
 - tuple은 immutable이기 때문에 comprehension 없음. 대신 *을 붙일 경우 iterator 반환해줌.
   - next()를 통해 접근 가능
