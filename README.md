@@ -19,7 +19,7 @@
   |12|and|  
   |13|or|
 
-## 파이썬 기초같지않은 기초 프로그래밍
+## 파이썬 과학프로그래밍
 
 - float. 
   - 디지털 컴퓨터는 모든 실수를 표현 할 수 없음.
@@ -123,7 +123,7 @@
 - intersection, union, difference, symmetric_difference
 - issubset, superset 부분집합, 상위집합
 
-
+### tuple
 - tuple은 immutable이기 때문에 comprehension 없음. 대신 *을 붙일 경우 iterator 반환해줌.
   - next()를 통해 접근 가능
  
