@@ -30,6 +30,9 @@
   - IEEE 754에서 실수는 정확한 값이 아닌 근사값으로 표현되며, 그래서 실제 값과는 다른 결과가 나올 수 있다.
     - log10(53) = 15.95 정도
     - import math 후 math.isclose 함수를 통해 비교 가능.
+  - with np.printoptions(precision=3, suppress=True)
+    - 이 문장을 통해 e로 표현되는 식을 풀어서 출력 가능.
+
 
 
 
