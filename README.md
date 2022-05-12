@@ -32,10 +32,7 @@
     - import math 후 math.isclose 함수를 통해 비교 가능.
   - with np.printoptions(precision=3, suppress=True)
     - 이 문장을 통해 e로 표현되는 식을 풀어서 출력 가능.
-
-
-
-
+    
 - mutable or immutable -> 원소 변경 불가능, 삽입, 삽제 포함
   - mutable : list, dict, set, bytearray, user-definded classes(특별히 immutable로 바꾸지않는 경우에 한하여)
   - immutable : 그 외 전부 다.. (tuple, str) -> hashable
