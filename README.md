@@ -114,6 +114,7 @@
 - values() : Dict에 있는 모든 value 반환
 - `update()` : Dict에 iterable 삽입 후 동일한 키가 있으면 새 val로 대치, 없는 경우는 새로 삽입
   - update({'key' : value, ..ect }) 형태로 사용
+- 값 삽입하고 싶을 땐 dict['key'] = value 형태, 중복값 있다면 알아서 대체 됌.
 
 ### set()
 - set은 속도가 빠르당 {}
