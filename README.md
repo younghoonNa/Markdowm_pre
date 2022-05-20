@@ -113,6 +113,7 @@
 - keys() : Dict에 있는 모든 key 반환
 - values() : Dict에 있는 모든 value 반환
 - `update()` : Dict에 iterable 삽입 후 동일한 키가 있으면 새 val로 대치, 없는 경우는 새로 삽입
+  - update({'key' : value, ..ect }) 형태로 사용
 
 ### set()
 - set은 속도가 빠르당 {}
