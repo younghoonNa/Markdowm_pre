@@ -102,6 +102,7 @@
 - sort()        : 리스트들의 원소들의 순서를 오름차순으로 재배치
 - reverse()     : 리스트 뒤집기
 - len ()        : 사이즈 
+  - `sum([getsizeof(item) for item in lst])` -> 리스트 원소의 크기 합.
 
 ### Dict()
 - 모든 딕셔너리의 키는 해쉬가능한 객체 
